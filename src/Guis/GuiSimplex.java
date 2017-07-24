@@ -418,10 +418,10 @@ public class GuiSimplex extends javax.swing.JFrame {
         getContentPane().add(jLabel8);
         jLabel8.setBounds(910, 500, 70, 70);
 
-        jLabel2.setText("INGENIERIA  DE SISTEMAS ");
+        jLabel2.setText("INGENIERIA  DE SISTEMAS --NOE CAÑARI--");
         jLabel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(600, 570, 160, 20);
+        jLabel2.setBounds(530, 580, 220, 20);
 
         jMenu1.setText("File");
         jMenu1.addChangeListener(new javax.swing.event.ChangeListener() {
