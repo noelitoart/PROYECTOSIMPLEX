@@ -320,7 +320,9 @@ public class GuiSimplex extends javax.swing.JFrame {
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jPanel2.setLayout(null);
 
+        Tablon.setBackground(new java.awt.Color(217, 6, 43));
         Tablon.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        Tablon.setForeground(new java.awt.Color(153, 0, 0));
         Tablon.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -701,7 +703,8 @@ if (modeloRestricciones == null) {
        this.dispose();
     }//GEN-LAST:event_jMenuItem4ActionPerformed
     private void crearTablaRestricciones() {
-        Xn = Integer.parseInt(String.valueOf(jspvariables.getValue()));
+      // aqui crearemos mas restricciones
+      Xn = Integer.parseInt(String.valueOf(jspvariables.getValue()));
         Nrestricciones = Integer.parseInt(String.valueOf(jspRest.getValue()));
         Object cabeza[] = new String[Xn + 3];
         cabeza[0] = (" ");
@@ -735,7 +738,6 @@ if (modeloRestricciones == null) {
         }
         agregarComboBox(modeloRestricciones.getColumnCount(), jtRestricciones);
     }
-
     private void Ecuaciones() {
         jtaEcuaciones.setText(null);
         int fila = modeloRestricciones.getRowCount();
