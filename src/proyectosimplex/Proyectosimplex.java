@@ -6,14 +6,13 @@ package proyectosimplex;
 
 
 import Guis.GuiInicio;
-import Guis.GuiSimplex;
 /**
  *
  * @author MIPC
  */
 public class Proyectosimplex {
 
-    /**
+    /** una prueba  desdepues de arreglar  aulgunos errores 
      * @param args the command line arguments
      */
     public static void main(String[] args) {
