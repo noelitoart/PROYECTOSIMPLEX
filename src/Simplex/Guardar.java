@@ -12,6 +12,10 @@ import javax.swing.table.DefaultTableModel;
  *
  * @author Mipc
  */
+
+
+
+
 public class Guardar implements Serializable {     
     private String objetivo;
     private int filas=0;

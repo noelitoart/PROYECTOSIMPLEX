@@ -14,8 +14,8 @@ import javax.swing.table.DefaultTableModel;
 public class GetX {
     private static int filaX;
     public static void mostar(DefaultTableModel modeloSolucion,int Xn){
-        int fil = modeloSolucion.getRowCount();
-        int col = modeloSolucion.getColumnCount();
+        int fil = modeloSolucion.getRowCount();//
+        int col = modeloSolucion.getColumnCount();//  aqui  tomamos  los modelos de  solucion , tomaremos los  valores  delacolumnas
         jtaOperaciones.setText("   === Solución ===\n\n");
         String xn;
         for (int n = 1; n <= Xn; n++) {

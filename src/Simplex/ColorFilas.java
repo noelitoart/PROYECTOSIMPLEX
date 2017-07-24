@@ -15,6 +15,7 @@ import javax.swing.table.DefaultTableCellRenderer;
  *
  * @author Mipc
  */
+//  aqui les  daremos colores  a las filas  para  tener un mejor  diseño
 public class ColorFilas extends  DefaultTableCellRenderer{
     private JLabel componete;
     int i=0; 

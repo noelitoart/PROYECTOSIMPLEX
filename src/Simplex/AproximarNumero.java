@@ -8,9 +8,10 @@ package Simplex;
  *
  * @author Mipc
  */
+//  aqui veremos  las funciones  de aproximacion de numeros 
 public class AproximarNumero {
     static  String tem;
-    public static  String valorAprocimado(String cadena){// retorna el valor reducido, despues del . retorna tres sifras+E^n
+    public static  String valorAprocimado(String cadena){// retorna  el valos reducido  despues  del . retorna tres sifras+E^n 
       String f ="";
       for (int k = 0; k < cadena.length(); k++) {
          char c =cadena.charAt(k);

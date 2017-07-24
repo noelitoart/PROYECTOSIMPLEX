@@ -22,9 +22,7 @@ public class Proyectosimplex {
         
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-//                new Princial1().setVisible(true); 
-//                new Principal2().setVisible(true);
-                  //new  GuiAsignacion().setVisible(true);
+
                   new GuiInicio().setVisible(true);
             }
         });
